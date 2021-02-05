@@ -20,7 +20,7 @@ class Library:
         print('Book has been added to the library')
 
     def return_books(self,book):
-        self.booklist.pop(book)
+        self.lendDict.pop(book)
 
 if __name__ == '__main__':
     lib = Library(['Python', 'C++', 'C#', 'Ruby', 'JAVA'], 'Public Library')
